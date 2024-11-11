@@ -31,11 +31,11 @@ services:
 
 volumes:
   confluence_home:
-    name: confluence_home
+    external: true
   confluence_install:
-    name: confluence_install
+    external: true
   confluence_nginx_conf:
-    name: confluence_nginx_conf
+    external: true
 
 networks:
   nginx:
